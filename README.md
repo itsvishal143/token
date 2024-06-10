@@ -1,9 +1,18 @@
-MyToken
+Project Title : In this project we need to create a token in which we are taking some public variables which stores (Token Name, Token Abbrv., Total Supply). 
+The primary objective of the MyToken contract is to provide a simple and comprehensible implementation of token creation and management on the Ethereum network. 
+It serves as an educational tool for developers learning about blockchain and smart contracts, and as a foundational template for more complex token systems. 
+The MyToken smart contract offers a straightforward implementation of a custom token on the Ethereum blockchain. 
+It allows users to mint and burn tokens while tracking the total supply and individual balances. 
+It is designed to offer a simple yet effective way to manage a token with basic functionalities.
 
-This is a simple ERC-20 token contract implemented in Solidity. The contract allows for the creation and destruction of tokens, as well as storing information about the token.
+Description : we need to perform different function in token to demonstrate the code.
+Mint Tokens: This function allows the creation of new tokens. 
+Burn Tokens: This function enables the destruction of existing tokens. 
+Total Supply: This feature keeps track of the overall number of tokens in circulation. Balances: This feature maintains records of individual token holders' balances. 
 
-Requirements
+Getting Started: This is a simple ERC-20 token contract implemented in Solidity. The contract allows for the creation and destruction of tokens, as well as storing information about the token.
 
+Requirements:
 1. The contract has public variables that store the details about the coin:
    - `tokenName`: A string representing the name of the token.
    - `abbrv`: A string representing the abbreviation of the token.
@@ -29,8 +38,7 @@ Requirements
      - If true, decrease the `totalSupply` by `_value`.
      - Decrease the balance of the `_address` by `_value`.
 
-Usage
-
+Usage:
 1. Deploy the `MyToken` contract to a supported Ethereum network.
 
 2. Once deployed, you can interact with the contract by calling the following functions:
